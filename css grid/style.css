@@ -1,0 +1,48 @@
+.parent{
+    width: 80%;
+    height: 400px;
+    background-color: snow;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap:10px;
+
+}
+
+.col{
+    border: 1px solid black;
+}
+.col:nth-child(1){
+    background-color: royalblue;
+}
+.col:nth-child(2){
+    background-color: rebeccapurple;
+    
+}
+.col:nth-child(3){
+    background-color: palevioletred;
+}
+.col:nth-child(4){
+    background-color: khaki;
+}
+.col:nth-child(5){
+    background-color: red;
+}
+.col:nth-child(6){
+    background-color: teal;
+}
+.col:nth-child(7){
+    background-color: maroon;
+}
+.col:nth-child(8){
+    background-color: aqua;
+}
+.col:nth-child(9){
+    background-color: skyblue;
+}
+
+image{
+    width: 100%;
+    height: 200px;
+}

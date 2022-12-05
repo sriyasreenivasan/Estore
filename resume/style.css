@@ -1,0 +1,16 @@
+.parent{
+    position: relative;
+
+    width: 90%;
+    height: 1000px;
+    background-color:darkseagreen;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+    
+}
+.col{
+    border: 1px solid black;
+}
+
